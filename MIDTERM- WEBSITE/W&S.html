@@ -1,0 +1,95 @@
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Resume Portfolio</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+  }
+  .header {
+    padding: 25px;
+    background: #004466;
+    color: white;
+    border-radius: 10px 10px 0 0;
+  }
+  .header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 15px;
+  }
+  .contact-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    color: #004466;
+    margin-top: 25px;
+  }
+  .back-link {
+    margin-top: 25px;
+    display: block;
+    text-decoration: none;
+    color: #004466;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  ul {
+    list-style-type: square;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 20px;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  .contact-section {
+    margin-top: 30px;
+    padding: 20px;
+    background: #e0e0e0;
+    border-radius: 10px;
+  }
+  .contact-section p {
+    margin: 5px 0;
+  }
+  .contact-section a {
+    color: #004466;
+    text-decoration: none;
+    font-weight: bold;
+  }
+</style>
+    <div className='min-h-screen bg-gray-100 p-4'>
+      <header className='bg-white shadow-lg p-6 rounded-2xl mb-4'>
+        <h1 className='text-3xl font-bold text-center'>K&E Photography</h1>
+      </header>
+            
+      <section className='mt-6'>
+        <Card className='bg-white shadow-lg rounded-2xl'>
+          <CardContent>
+            <h2 className='text-xl font-bold'>Book a Session</h2>
+            <form className='mt-2 grid grid-cols-1 gap-4'>
+              <input type='text' placeholder='Full Name' className='p-2 border border-gray-300 rounded' />
+              <input type='email' placeholder='Email' className='p-2 border border-gray-300 rounded' />
+              <input type='date' className='p-2 border border-gray-300 rounded' />
+              <textarea placeholder='Additional Details' className='p-2 border border-gray-300 rounded'></textarea>
+              <Button className='bg-blue-500 text-white'>Submit</Button>
+            </form>
+          </CardContent>
+        </Card>
+      </section>
+      <a href="index.html" class="back-link">&larr; Back to Front Page</a>
+      </footer>
+ 
